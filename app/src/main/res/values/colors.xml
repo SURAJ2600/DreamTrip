@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03A9F4</color>
+   <!-- <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+    <color name="sky_bule">#449fed</color><!--4f9cdf-->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#9d8a86</color>
+    <color name="under_line">#ede9e8</color>
+    <color name="login_hint">#897e7b</color>
+    <color name="login_btn">#2da9a9a9</color>
+    <color name="tab_bg">#2e343e</color>
+    <color name="tab_unselected">#6d7178</color>
+    <color name="text_categories">#4b5158</color>
+    <color name="text_price">#414246</color>
+    <color name="detail_title">#4e5259</color>
+    <color name="grey_black">#475057</color>
+
+    <color name="recyleviewer_bg">#e4e9ee</color>
+    <color name="lightgrey">#83868a</color>
+
+    <color name="light_sky_blue">#96a7bd</color>
+</resources>

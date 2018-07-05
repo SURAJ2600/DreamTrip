@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="learncode.example.com.dreamtrip.Activities.LoginActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    >
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_backgroundimage"
+        android:orientation="vertical"
+  >
+
+
+        <TextView
+            android:id="@+id/welcome_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:gravity="center"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20dp"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/login_hint">
+
+                <EditText
+                    android:id="@+id/user_firstname"
+
+                    style="@style/Editext_LoginRegister"
+                    android:hint="@string/firstname" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/under_line" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/login_hint">
+
+                <EditText
+                    android:id="@+id/user_lastname"
+                    style="@style/Editext_LoginRegister"
+                    android:hint="@string/lastname" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/under_line" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/login_hint">
+
+                <EditText
+                    android:id="@+id/user_email"
+                    style="@style/Editext_LoginRegister"
+                    android:hint="@string/email" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/under_line" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/login_hint">
+
+                <EditText
+                    android:id="@+id/user_password"
+                    style="@style/Editext_LoginRegister"
+                    android:hint="@string/password" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/under_line" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/login_hint">
+
+                <EditText
+                    android:id="@+id/user_confirmpassword"
+                    style="@style/Editext_LoginRegister"
+                    android:hint="@string/confirm_password" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/under_line" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/login_hint">
+
+                <EditText
+                    android:id="@+id/user_mobile"
+                    style="@style/Editext_LoginRegister"
+                    android:inputType="number"
+                    android:hint="@string/mobilenumber" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/under_line" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/login_hint">
+
+                <Spinner
+                    android:id="@+id/user_genderspinner"
+                    style="@style/Editext_LoginRegister"
+                    android:hint="@string/gender" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/under_line" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/login_hint">
+
+                <TextView
+                    android:id="@+id/user_dob"
+                    style="@style/Editext_LoginRegister"
+                    android:focusable="false"
+                    android:hint="@string/dob" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/under_line" />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="@color/sky_bule"
+                android:text="@string/register"
+
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/signin_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+
+                android:text="@string/Signup"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

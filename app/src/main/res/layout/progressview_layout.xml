@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <learncode.example.com.dreamtrip.Utility.ProgressView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fading_circle_color="@color/sky_bule"
+        app:stationary_circle_color="@color/sky_bule"
+        app:orbiting_circle_color="@color/sky_bule"
+        app:direction="counterclockwise"
+        app:orbiting_circle_radius="8dp"
+        app:stationary_circle_radius="12dp" />
+
+
+
+</LinearLayout>

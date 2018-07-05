@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">DreamTrip</string>
+
+    <string name="e_commerce">E-COMMERCE</string>
+    <string name="username">Username</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+
+
+    <string name="email">Email</string>
+    <string name="mobilenumber">Mobile number</string>
+    <string name="gender">Gender</string>
+
+    <string name="dob">Date of birth</string>
+
+
+    <string name="Signup">Don\'t have an Account? Signup Here</string>
+
+    <string name="Signin">SignIn?</string>
+
+    <string name="create_an_account">Create an account</string>
+    <string name="welcome_back">Welcome</string>
+    <string name="register">Register</string>
+
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email_hint">E-mail</string>
+    <string name="create_account">Create Account</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <!--# MENu LIST-->
+    <string name="shop">Shop</string>
+    <string name="orders">Orders</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="explore">Explore</string>
+    <string name="comments">Comments</string>
+    <string name="search">Search</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_home_screens_">HomeScreens_Activity</string>
+    <string name="enter_dob">Enter your DOB</string>
+    <string name="lenth_of_mob">Mobile number minimum length should be 8</string>
+    <string name="select_gender">Select your gender</string>
+    <string name="enter_email">Enter a valid email</string>
+    <string name="enteremail">Enter your email</string>
+    <string name="enter_lastname">Enter your lastname</string>
+    <string name="enter_first_name">Enter your firstname</string>
+    <string name="choose_profile">Choose your profile picture</string>
+
+    <string name="enter_pwd">Enter your password</string>
+    <string name="pwd_lenth">Password length should be minimum 6 character</string>
+    <string name="pwd_mismatch">Password mismatch</string>
+    <string name="enter_mob_num">Enter your mobile number</string>
+    <string name="min_number">Mobile number minimum length should be 8</string>
+    <string name="detail_page">Detail Page</string>
+    <string name="home">DreamTrip</string>
+    <string name="update_success">Update Successfully</string>
+    <string name="update_error">User Details Has Not Been Updated</string>
+
+    <string name="no_internet">Please connect to internet</string>
+    <string name="connect_internet">Please connect to Internet</string>
+    <string name="failed">Failed to request this service</string>
+</resources>
